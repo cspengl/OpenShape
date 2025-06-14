@@ -1,6 +1,6 @@
 import MinkowskiEngine as ME
 import torch.nn as nn
-from Minkowski_resnet import ResNetBase
+from .Minkowski_resnet import ResNetBase
 from MinkowskiEngine.modules.resnet_block import BasicBlock
 
 class MinkowskiFCNN(ME.MinkowskiNetwork):
